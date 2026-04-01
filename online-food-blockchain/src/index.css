@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Smooth scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Scrollbar Styling (modern UI) */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FC8019;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+
+/* Button hover effect */
+
+button {
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+
+/* Card hover shadow */
+
+.card-hover:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,13 @@
+{
+    "abi": [{
+        "inputs": [{
+            "internalType": "string",
+            "name": "_foodName",
+            "type": "string"
+        }],
+        "name": "placeOrder",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    }]
+}
